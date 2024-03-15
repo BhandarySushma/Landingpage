@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image: url(/pexels-veeterzy-303383.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h1 a{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    display: inline;
+    color: #eb7620;
+    text-decoration: none;
+    
+}
+
+nav ul{
+    float: right;
+   line-height: 80px;
+}
+
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:5px;
+    padding: 7px 8px;
+
+}
+
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.3s ease;
+}
+
+.article{
+    width: 50;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+
+.article h1{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800px;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 18px;
+    color: #e87d18;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
